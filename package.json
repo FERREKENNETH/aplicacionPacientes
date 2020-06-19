@@ -1,0 +1,26 @@
+{
+  "name": "backendapi",
+  "version": "1.0.0",
+  "description": "Proyecto de aplicacion para pacientes",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FERREKENNETH/aplicacionPacientes.git"
+  },
+  "author": "Kenneth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FERREKENNETH/aplicacionPacientes/issues"
+  },
+  "homepage": "https://github.com/FERREKENNETH/aplicacionPacientes#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.19"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
